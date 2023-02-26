@@ -1,9 +1,7 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# See https://help.github.com/ignore-files/ for more about ignoring files.
 
 # dependencies
 /node_modules
-/.pnp
-.pnp.js
 
 # testing
 /coverage
@@ -21,54 +19,4 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-# Numerous always-ignore extensions
-*.diff
-*.err
-*.orig
-*.log
-*.rej
-*.swo
-*.swp
-*.zip
-*.rar
-*.vi
-*.todo
-*~
-
-# OS or Editor folders
-._*
-Thumbs.db
-.cache
-.project
-.settings
-.tmproj
-*.esproj
-nbproject
-*.sublime-project
-*.sublime-workspace
-.idea
-
-# Folders to ignore
-.sass-cache
-.tmp
-node_modules
-bower_components
-*/**/node_modules
-*/**/bower_components
-site/lib
-*/**/*.todo
-
-docs
-._.DS_Store
-
-.tmpTemplater
-.tmpPreproc
-
-npm-debug.log
-phantomjsdriver.log
-/nbproject/*
-
-**/sprite_96.*
-**/svg-fallback-sprite.*
-**/svg-sprite.*
+yarn.lock
